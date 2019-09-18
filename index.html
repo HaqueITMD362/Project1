@@ -7,9 +7,17 @@
   <link rel="stylesheet" media="screen" href="css/reset.css" />
   <link rel="stylesheet" media="screen" href="css/screen.css" />
   <script src="script.js"> </script>  
- 
 </head>
 <body>
-	
+	<form method="POST" autocomplete = "on" enctype="multipart/form-data">
+		<p><label> First Name: <input type="text" name="first_name_field"></label></p>
+		<p><label> Last Name: <input type="text" name="last_name_field"></label></p>
+		<p><label> Phone Number: <input type="tel" name="phone_field" placeholder="123-456-7890"></label></p>
+		<p><label> Email Address: <input type="email" name="email_field" placeholder="email@email.com"></label></p>
+		<p><label> Date of Birth: <input type="text" name="dob_field" placeholder="mm/dd/yyyy"></label></p>
+		<div>
+		<button id="button" type="button" onclick="myFunction()"> Submit </button>
+		</div>
+	</form>
 </body>
 </html>
