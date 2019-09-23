@@ -7,14 +7,14 @@ h1, h2{
  font-family: 'Bitter', serif;
  font-weight: bold;
  color: white;
- text-shadow: 2px 2px 4px #000000
+ text-shadow: 2px 2px 4px #000000;
 }
 h1 {
-	 font-size: 40px;
-	 padding: 15px;
+  font-size: 40px;
+  padding: 15px;
 }
 h2 {
-	 font-size: 30px;
+  font-size: 30px;
 }
 h3 {
   font-size: 20px;
@@ -25,14 +25,27 @@ h3 {
   color: black;
 }
 #flag {
-  text-align:center;
+  text-align: center;
+  margin-left:457px;
   width: 25%;
   height: 25%; 
-  padding: 15px;
+  display: inline;
+  float: none;
 }
 form, #form2 {
   padding: 5px;
   text-align: center;
   font-family: 'Bitter', serif;
   font-weight: bold;
+}
+h4,a {
+  font-family: 'Bitter', serif;
+  text-align: left;
+  padding: 15px;
+}
+h4 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+@media only screen and (max-width: 600px) {
 }
