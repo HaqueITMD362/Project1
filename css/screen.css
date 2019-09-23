@@ -1,3 +1,38 @@
 body {
- background: linear-gradient(100deg, Lavender, LavenderBlush);
+ background-color: #f65555;
+}
+h1, h2{
+ padding: 5px;
+ text-align: center;
+ font-family: 'Bitter', serif;
+ font-weight: bold;
+ color: white;
+ text-shadow: 2px 2px 4px #000000
+}
+h1 {
+	 font-size: 40px;
+	 padding: 15px;
+}
+h2 {
+	 font-size: 30px;
+}
+h3 {
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Bitter', serif;
+  font-weight: bold;
+  color: black;
+}
+#flag {
+  text-align:center;
+  width: 25%;
+  height: 25%; 
+  padding: 15px;
+}
+form, #form2 {
+  padding: 5px;
+  text-align: center;
+  font-family: 'Bitter', serif;
+  font-weight: bold;
 }
