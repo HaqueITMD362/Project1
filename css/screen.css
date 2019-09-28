@@ -10,14 +10,70 @@ h1, h2{
  text-shadow: 2px 2px 4px #000000;
 }
 h1 {
-  font-size: 40px;
+  font-size: 35px;
   padding: 15px;
 }
 h2 {
-  font-size: 30px;
+  font-size: 20px;
 }
 h3 {
+  font-size: 15px;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Bitter', serif;
+  font-weight: bold;
+  color: black;
+}
+#flag {
+  text-align: center;
+  margin-left:150px;
+  width: 25%;
+  height: 25%; 
+  display: inline;
+  float: none;
+}
+form, #form2 {
+  padding: 5px;
+  text-align: center;
+  font-family: 'Bitter', serif;
+  font-weight: bold;
+  font-size: 15px;
+}
+h4,a {
+  font-family: 'Bitter', serif;
+  text-align: left;
+  padding: 15px;
+}
+h4 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+#button {
+	font-family: 'Bitter', serif;
+	
+}
+
+@media only screen and (max-width: 600px) {
+body {
+ background-color: #f65555;
+}
+h1, h2{
+ padding: 5px;
+ text-align: center;
+ font-family: 'Bitter', serif;
+ font-weight: bold;
+ color: white;
+ text-shadow: 2px 2px 4px #000000;
+}
+h1 {
+  font-size: 25px;
+  padding: 15px;
+}
+h2 {
   font-size: 20px;
+}
+h3 {
+  font-size: 15px;
   padding: 5px;
   text-align: center;
   font-family: 'Bitter', serif;
@@ -47,5 +103,8 @@ h4 {
   color: white;
   text-shadow: 2px 2px 4px #000000;
 }
-@media only screen and (max-width: 600px) {
+#button {
+	font-family: 'Bitter', serif;
+	
+}
 }
