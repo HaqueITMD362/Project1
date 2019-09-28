@@ -26,10 +26,11 @@ h3 {
 }
 #flag {
   text-align: center;
-  margin-left:150px;
+  margin-left:auto;
+  margin-right:auto;
   width: 25%;
   height: 25%; 
-  display: inline;
+  display: block;
   float: none;
 }
 form, #form2 {
@@ -82,10 +83,11 @@ h3 {
 }
 #flag {
   text-align: center;
-  margin-left:457px;
+  margin-left:auto;
+  margin-right:auto;
   width: 25%;
   height: 25%; 
-  display: inline;
+  display: block;
   float: none;
 }
 form, #form2 {
