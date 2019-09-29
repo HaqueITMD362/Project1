@@ -117,70 +117,8 @@ h4 {
 }
 #paragraph1, #paragraph2 {
 	font-family: 'Bitter', serif;
-	font-size: 12px;
+	font-size: 10px;
 	color: white;
 	padding: 10px;
-}
-}
-@media only screen and (max-width: 1024px) {
-body {
- background-color: #f65555;
-}
-h1, h2{
- padding: 10px;
- text-align: center;
- font-family: 'Bitter', serif;
- font-weight: bold;
- color: white;
- text-shadow: 2px 2px 4px #000000;
-}
-h1 {
-  font-size: 30px;
-  padding: 15px;
-}
-h2 {
-  font-size: 25px;
-}
-h3 {
-  font-size: 20px;
-  padding: 5px;
-  text-align: center;
-  font-family: 'Bitter', serif;
-  font-weight: bold;
-  color: black;
-}
-#flag {
-  text-align: center;
-  margin-left:auto;
-  margin-right:auto;
-  width: 30%;
-  height: 30%; 
-  display: block;
-  float: none;
-  padding: 5px;
-}
-form, #form2 {
-  padding: 10px;
-  text-align: center;
-  font-family: 'Bitter', serif;
-  font-weight: bold;
-}
-h4,a {
-  font-family: 'Bitter', serif;
-  text-align: left;
-  padding: 20px;
-}
-h4 {
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
-}
-#button {
-	font-family: 'Bitter', serif;
-}
-#paragraph1, #paragraph2 {
-	font-family: 'Bitter', serif;
-	font-size: 20px;
-	color: white;
-	padding: 5px;
 }
 }
