@@ -10,19 +10,22 @@ h1, h2{
  text-shadow: 2px 2px 4px #000000;
 }
 h1 {
-  font-size: 35px;
+  font-size: 1.728em; /* using 1.2 minor third ratio: 1.728em,1.44em,1.2em,1em */
+  line-height: 1.728em;
   padding: 15px;
 }
 h2 {
-  font-size: 20px;
+  font-size: 1.44em;
+  line-height: 1.44em;
 }
 h3 {
-  font-size: 15px;
+  font-size: 1.2em;
   padding: 5px;
   text-align: center;
   font-family: 'Bitter', serif;
   font-weight: bold;
   color: black;
+  line-height: 1.2em;
 }
 #flag {
   text-align: center;
@@ -39,7 +42,8 @@ form, #form2, #form3, #form4, #form5, #form6 {
   text-align: center;
   font-family: 'Bitter', serif;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 1em;
+  line-height: 1em;
 }
 h4,a {
   font-family: 'Bitter', serif;
@@ -52,14 +56,17 @@ h4 {
 }
 #button {
 	font-family: 'Oswald', sans-serif;
+	font-size:1.2em;
+	line-height:1.2em;
 }
 #paragraph1, #paragraph2 {
 	font-family: 'Bitter', serif;
 	text-align: justify;
 	padding: 20px;
 	color: white;
+	font-size: 1.2em;
+	line-height:1.2em;
 }
-
 @media only screen and (max-width: 600px) {
 body {
  background-color: #f65555;
@@ -102,6 +109,7 @@ form, #form2, #form3, #form4, #form5, #form6 {
   text-align: center;
   font-family: 'Bitter', serif;
   font-weight: bold;
+  font-size: 14px;
 }
 h4,a {
   font-family: 'Bitter', serif;
@@ -117,8 +125,13 @@ h4 {
 }
 #paragraph1, #paragraph2 {
 	font-family: 'Bitter', serif;
-	font-size: 12px;
+	font-size: 14px;
 	color: white;
 	padding: 10px;
+}
+a {
+	font-size: 12px;
+	display: block;
+	text-align: left;
 }
 }
