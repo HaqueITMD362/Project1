@@ -3,6 +3,11 @@ body {
 }
 input {
   display: inline-block;
+  width: 50%;
+  padding: 10px 15px;
+  margin: 10px;
+  border: solid #000000;
+  border-radius: 30px 30px 30px 30px;
 }
 h1, h2{
   padding: 5px;
@@ -136,5 +141,13 @@ a {
   font-size: 12px;
   display: block;
   text-align: left;
+}
+input {
+  display: inline-block;
+  width: 50%;
+  padding: 10px 15px;
+  margin: 10px;
+  border: solid #000000;
+  border-radius: 30px 30px 30px 30px;
 }
 }
