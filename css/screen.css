@@ -75,6 +75,84 @@ h4 {
   font-size: 1.2em;
   line-height:1.2em;
 }
+
+@media only screen and (min-width: 768px) {
+body {
+  background-color: #f65555;
+}
+h1, h2{
+  padding: 5px;
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-weight: bold;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+h1 {
+  font-size: 25px;
+  padding: 15px;
+}
+h2 {
+  font-size: 20px;
+}
+h3 {
+  font-size: 15px;
+  padding: 5px;
+  text-align: center;
+  font-family: 'Bitter', serif;
+  font-weight: bold;
+  color: black;
+}
+#flag {
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  width: 25%;
+  height: 25%; 
+  display: block;
+  float: none;
+  padding: 5px;
+}
+form, #form2, #form3, #form4, #form5, #form6 {
+  padding: 5px;
+  text-align: center;
+  font-family: 'Bitter', serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+h4,a {
+  font-family: 'Bitter', serif;
+  text-align: left;
+  padding: 15px;
+}
+h4 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+#button {
+  font-family: 'Oswald', sans-serif;
+}
+#paragraph1, #paragraph2 {
+  font-family: 'Bitter', serif;
+  font-size: 12px;
+  color: white;
+  padding: 10px;
+}
+a {
+  font-size: 12px;
+  display: block;
+  text-align: left;
+}
+input {
+  display: inline-block;
+  width: 300px;
+  padding: 5px 10px;
+  margin: 5px;
+  border: solid #000000;
+  border-radius: 30px 30px 30px 30px;
+}
+}
+
 @media only screen and (min-width: 992px) {
 body {
   background-color: #f65555;
